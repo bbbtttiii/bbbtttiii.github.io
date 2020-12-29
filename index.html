@@ -6,21 +6,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ben Iburg</title>
     <!-- <link rel="stylesheet" href="reset.css"> -->
+    <link rel="icon" type="img/png" href="/beniburg.com/public/favicon.ico">
     <link rel="stylesheet" href="styles/index.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,700;0,900;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,200;0,300;0,700;0,900;1,400&display=swap" rel="stylesheet">
 </head>
 <body class="container">
-    <header></header>
-    <nav></nav>
+    <header>
+      <h1>Ben Iburg</h1>
+      <nav>
+        <ul>
+          <li><a href="#portfolio">PORTFOLIO</a></li>
+          <li><a href="#music">MUSIC</a></li>
+          <li><a href="https://www.medium.com/@ben.iburg" target="_blank">BLOG</a></li>
+        </ul>
+      </nav>
+    </header>
     <main>
-        <p>Ben Iburg is a full-stack <a href="http://www.github.com/bbbtttiii" target="_blank">web developer</a>.<br></p>
-        <p>This website is new and under construction. More coming soon!</p>
-        <div class="medium-widget"></div>
+      <section id="hero">
+        <img src="beniburg.com/public/portrait.jpg" width="150px" height="150px">
+        <h2>Full-stack software engineer with a background in graphic+web design</h2>
+        <p><small>CURRENTLY BUILDING WITH:</small><br>JavaScript, React/Redux, Ruby on Rails, Sinatra, SQL, Photoshop, Illustrator, InDesign, XD</p>
+        <p><small>EXCITED ABOUT LEARNING:</small><br>D3.js!</p>
+        <p>
+          <small>CONTACT ME:</small><br>
+          <ul>
+            <li><a href="mailto:ben.iburg@gmail.com" target="_blank"><img src="beniburg.com/public/gmail.svg" width="50px"></a></li>
+            <li><a href="https://www.github.com/bbbtttiii" target="_blank"><img src="beniburg.com/public/github.svg" width="50px"></a></li>
+            <li><a href="https://www.linkedin.com/in/ben-iburg" target="_blank"><img src="beniburg.com/public/linkedin.svg" width="50px"></a></li>
+          </ul>
+        </p>
+      </section>
+      <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio-container">
+          <a href="https://www.github.com/bbbtttiii/parallelogram-frontend" target="_blank">
+            <small>PARALLELOGRAM</small><br>
+            <b>Digital magazine</b><br>
+            React-Redux, Rails, Postgres<br>
+            <img src="beniburg.com/public/parallelogram-preview.jpg">
+          </a>
+          <a href="https://www.github.com/bbbtttiii/visualifter" target="_blank">
+            <small>VISUALIFTER</small><br>
+            <b>Workout visualizer</b><br>
+            JavaScript, Rails, SQLite<br>
+            <img src="beniburg.com/public/visualifter-preview.jpg">
+          </a>
+          <a href="https://www.github.com/bbbtttiii/hyperlocal" target="_blank">
+            <small>HYPERLOCAL</small><br>
+            <b>Remote weather observation tracking</b><br>
+            Sinatra, Postgres<br>
+            <img src="beniburg.com/public/hyperlocal-preview.jpg">
+          </a>
+          <a href="https://www.github.com/bbbtttiii/4tnr" target="_blank">
+            <small>4TNR</small><br>
+            <b>CLI guidebook for Colorado's tallest mountains</b><br>
+            Ruby<br>
+            <img src="beniburg.com/public/4tnr-preview.jpg">
+          </a>
+        </div>
+      </section>
+      <section id="music">
+        <h2>Music</h2>
+        <small>DRUMS</small><br>
+        <iframe style="border: 0; width: 400px; height: 300px;" src="https://bandcamp.com/EmbeddedPlayer/album=2711151580/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/" seamless><a href="https://sunlessband.bandcamp.com/album/urraca">Urraca by Sunless</a></iframe>
+        <br>
+        <iframe style="border: 0; width: 400px; height: 300px;" src="https://bandcamp.com/EmbeddedPlayer/album=2943541008/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/" seamless><a href="https://notfromhere1.bandcamp.com/album/not-from-here">Not From Here by Not From Here</a></iframe>
+        <br><br><br>
+        <small>PRODUCTION</small><br>
+        <iframe width="400px" height="300px" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1186281247&color=%23ff5500&auto_play=false&hide_related=false&show_comments=false&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/empty-organics" title="Empty Organics" target="_blank" style="color: #cccccc; text-decoration: none;">Empty Organics</a> · <a href="https://soundcloud.com/empty-organics/sets/plylst" title="EO" target="_blank" style="color: #cccccc; text-decoration: none;">EO</a></div>
+      </section>
+
+
+      <!-- <div class="medium-widget"></div> -->
     </main>
     <footer></footer>
 
-    <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
+    <!-- <script src="https://medium-widget.pixelpoint.io/widget.js"></script> -->
     <script src="index.js"></script>
 </body>
 </html>
