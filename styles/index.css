@@ -55,7 +55,8 @@ html, body {
   margin-right: 5px;
 }
 
-@media (max-width: 1280px) {
+
+@media (max-width: 1320px) {
   header, nav {
     background-color: white;
   }
@@ -65,13 +66,18 @@ html, body {
   }
 }
 
-/* @media (min-width: 768px) {
-  .container {
-    display: grid;
-    grid-template-columns: 200px 1fr 200px;
-    grid-template-rows: auto 1fr auto;
+@media (max-width: 400px) {
+  header, nav {
+    text-align: center;
+    margin: 0 auto;
   }
-} */
+  header h1 {
+    font-size: 2em;
+  }
+  nav li {
+    font-size: 0.7em;
+  }
+}
 
 header {
   z-index: 3;
@@ -88,7 +94,7 @@ header h1 {
   /* margin: 25px; */
   padding-left: 20px;
   font-size: 3.6em;
-  line-height: 0.5em;
+  line-height: 0.25em;
   font-weight: bolder;
 }
 
@@ -159,6 +165,7 @@ section {
 .portfolio-container {
   display: flex;
   flex-direction: column;
+  width: 350px;
 }
 
 .portfolio-container img {
