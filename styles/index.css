@@ -51,7 +51,13 @@ html, body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  margin-left: 5px;
+  margin-right: 5px;
 }
+
+/* @media (min-width: 400px) {
+  
+} */
 
 /* @media (min-width: 768px) {
   .container {
@@ -64,12 +70,13 @@ html, body {
 header {
   width: 100%;
   grid-column: span 3;
-  padding-top: 10px;
+  padding-top: 20px;
   text-align: center;
   margin: 0 auto;
 }
 
 header h1 {
+  margin: 25px;
   font-size: 3.6em;
   line-height: 0.5em;
   font-weight: bolder;
