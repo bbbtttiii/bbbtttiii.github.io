@@ -68,6 +68,8 @@
 }
 
 html, body {
+  overflow-x: hidden;
+  padding: 0;
   margin: 0;
   font-family: 'Inter', sans-serif;
   scroll-behavior: smooth;
@@ -78,19 +80,17 @@ html, body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  margin-left: 5px;
-  margin-right: 5px;
 }
 
 header {
   z-index: 3;
-  width: 300px;
+  min-width: 300px;
   grid-column: span 3;
   text-align: left;
   margin: 0 auto;
   position: fixed;
   padding-left: 20px;
-  /* background-color: white; */
+  background-color: white;
 }
 
 header h1 {
@@ -118,7 +118,7 @@ nav li {
   font-weight: bold;
   display: inline;
   font-size: 1em;
-  padding: 0 5px 0;
+  padding-right: 10px;
   letter-spacing: 2px;
 }
 
@@ -179,7 +179,7 @@ section {
 
 .portfolio-container img {
   object-fit: contain;
-  height: 400px;
+  height: 450px;
   border: 1px solid #ddd;
 }
 
@@ -246,11 +246,14 @@ a:hover, a:active {
   flex-wrap: wrap;
 }
 
-.medium-widget-article__description {
+div.medium-widget-article__description {
   color: black;
 }
 
-@media (max-width: 1485px) {
+@media (max-width: 1575px) {
+  html, body {
+    width: 100%;
+  }
   header, nav {
     background-color: white;
     width: 100%;
@@ -265,20 +268,23 @@ a:hover, a:active {
 
 @media (max-width: 600px) {
   .portfolio-container img {
-    height: 250px;
-  }
-} 
-
-@media (max-width: 400px) {
-  header, nav {
-    text-align: center;
-    margin: 0 auto;
+    height: 225px;
   }
   header h1 {
     font-size: 2.5em;
-    line-height: 0.75em;
+  }
+}
+
+@media (max-width: 400px) {
+  header h1 {
+    font-size: 2em;
   }
   nav li {
-    font-size: 1em;
+    font-size: 0.9em;
+    padding-right: 5px;
+    line-height: 0.5em;
+  }
+  .portfolio-container img {
+    height: 225px;
   }
 }
