@@ -74,6 +74,8 @@ html, body {
   font-family: 'Inter', sans-serif;
   scroll-behavior: smooth;
   background-color: #fff;
+  font-weight: 600;
+
 }
 
 .container {
@@ -101,6 +103,10 @@ header h1 {
 
 header h1 a {
   color: black;
+}
+
+header h1 a:hover {
+  opacity: 80%;
 }
 
 nav {
@@ -163,13 +169,13 @@ section {
 
 #hero small {
   letter-spacing: 1px;
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 #portfolio small, #music small {
   font-size: 1.5em;
   letter-spacing: 2px;
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 .portfolio-container {
@@ -192,9 +198,9 @@ a:hover img {
 } */
 
 section h2 {
-  font-size: 2.5em;
+  font-size: 2em;
   line-height: 1em;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 #hero ul {
@@ -222,7 +228,7 @@ footer {
 
 p {
   font-size: 1em;
-  font-weight: normal;
+  font-weight: 600;
 }
 
 a {
@@ -266,12 +272,22 @@ div.medium-widget-article__description {
   }
 }
 
+@media (max-width: 1000px) {
+  main {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+}
+
 @media (max-width: 600px) {
   .portfolio-container img {
     height: 225px;
   }
   header h1 {
     font-size: 2em;
+  }
+  main {
+    padding-top: 150px;
   }
 }
 
@@ -282,11 +298,10 @@ div.medium-widget-article__description {
   nav li {
     font-size: 0.9em;
     padding-right: 5px;
-    line-height: 0.5em;
+    /* line-height: 0.5em; */
+    display: block;
   }
-  main {
-    padding-top: 150px;
-  }
+
   .portfolio-container img {
     height: 225px;
   }
