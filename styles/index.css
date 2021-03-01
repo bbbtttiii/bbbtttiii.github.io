@@ -309,6 +309,7 @@ div.medium-widget-article__description {
     padding-top: 10px;
   }
   nav {
+    padding-top: 5px;
     padding-bottom: 10px;
   }
   main {
@@ -334,8 +335,8 @@ div.medium-widget-article__description {
     font-size: 1.5em;
   }
   nav li {
-    font-size: 0.9em;
-    padding-right: 5px;
+    font-size: 0.95em;
+    padding-right: 0;
     display: block;
   }
 
