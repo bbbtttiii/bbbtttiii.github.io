@@ -75,7 +75,6 @@ html, body {
   scroll-behavior: smooth;
   background-color: #fff;
   font-weight: 600;
-
 }
 
 .container {
@@ -86,23 +85,25 @@ html, body {
 
 header {
   z-index: 3;
-  min-width: 300px;
+  /* min-width: 300px; */
   grid-column: span 3;
   text-align: left;
-  margin: 0 auto;
+  margin: 0;
   position: fixed;
   padding-left: 20px;
-  background-color: white;
+  padding-top: 15px;
+  background-color: #fff;
 }
 
 header h1 {
   font-size: 3em;
-  line-height: 0.25em;
+  /* line-height: 0.25em; */
+  margin: 0;
   font-weight: bolder;
 }
 
 header h1 a {
-  color: black;
+  color: #000;
 }
 
 header h1 a:hover {
@@ -112,7 +113,7 @@ header h1 a:hover {
 nav {
   text-align: left;
   width: 100%;
-  padding-bottom: 20px;
+  padding-bottom: 15px;
 }
 
 nav ul {
@@ -135,7 +136,7 @@ main {
 }
 
 section {
-  margin-bottom: 170px;
+  margin-bottom: 200px;
   padding: 0 0 30px;
   scroll-margin-top: 25px;
   /* display: flex;
@@ -148,7 +149,18 @@ section {
 
 #hero {
   scroll-margin-top: 300px;
-  max-width: 700px;
+  /* max-width: 700px; */
+}
+
+#hero small {
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+#portfolio small, #music small {
+  font-size: 1.5em;
+  letter-spacing: 2px;
+  font-weight: bold;
 }
 
 .portfolio-row {
@@ -167,17 +179,6 @@ section {
   margin-right: 20px;
 }
 
-#hero small {
-  letter-spacing: 1px;
-  font-weight: bold;
-}
-
-#portfolio small, #music small {
-  font-size: 1.5em;
-  letter-spacing: 2px;
-  font-weight: bold;
-}
-
 .portfolio-container {
   display: flex;
   flex-direction: column;
@@ -186,16 +187,8 @@ section {
 .portfolio-container img {
   object-fit: contain;
   height: 450px;
-  border: 1px solid #ddd;
+  border: 1px solid #ccc;
 }
-
-/* a img {
-  opacity: 90%;
-}
-
-a:hover img {
-  opacity: 100%;
-} */
 
 section h2 {
   font-size: 2em;
@@ -203,15 +196,32 @@ section h2 {
   font-weight: bolder;
 }
 
+.contact i {
+  padding: 0 5px;
+  color: #000;
+}
+
+.contact i:hover {
+  opacity: 80%;
+}
+
 #hero ul {
   margin: 0;
   padding: 0;
 }
 
-#hero li {
+.tech li {
   list-style-type: none;
   display: inline;
-  padding: 0 5px 0;
+  padding: 5px;
+  border: 1px solid #000;
+  border-radius: 50px;
+  line-height: 2.5rem;
+}
+
+.tech li:hover {
+  opacity: 70%;
+  cursor: default;
 }
 
 #portfolio ul {
@@ -223,7 +233,6 @@ footer {
   padding: 30px;
   text-align: center;
   font-size: 1em;
-  color: white;
 }
 
 p {
@@ -253,22 +262,30 @@ a:hover, a:active {
 }
 
 div.medium-widget-article__description {
-  color: black;
+  color: #000;
 }
 
 @media (max-width: 1575px) {
   html, body {
     width: 100%;
   }
+  header {
+    padding: 0;
+  }
   header, nav {
-    background-color: white;
     width: 100%;
   }
+  header h1 {
+    padding-left: 20px;
+    padding-top: 15px;
+  }
   nav {
-    border-bottom: 1px solid #ddd;
+    /* margin-left: 0; */
+    padding-left: 20px;
+    border-bottom: 1px solid #ccc;
   }
   #portfolio, #music, #blog {
-    scroll-margin-top: 150px;
+    scroll-margin-top: 130px;
   }
 }
 
@@ -280,14 +297,25 @@ div.medium-widget-article__description {
 }
 
 @media (max-width: 600px) {
-  .portfolio-container img {
-    height: 225px;
+  body, header, nav {
+    text-align: center;
+    width: 100%;
+  }
+  body, header h1, nav {
+    padding: 0;
   }
   header h1 {
     font-size: 2em;
+    padding-top: 10px;
+  }
+  nav {
+    padding-bottom: 10px;
   }
   main {
     padding-top: 150px;
+  }
+  .portfolio-container img {
+    height: 225px;
   }
 }
 
@@ -298,7 +326,6 @@ div.medium-widget-article__description {
   nav li {
     font-size: 0.9em;
     padding-right: 5px;
-    /* line-height: 0.5em; */
     display: block;
   }
 
