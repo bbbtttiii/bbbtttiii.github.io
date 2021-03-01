@@ -317,6 +317,16 @@ div.medium-widget-article__description {
   .portfolio-container img {
     height: 225px;
   }
+  .portfolio-col {
+    margin-right: 0;
+  }
+  .portfolio-row {
+    display: block;
+    
+  }
+  #portfolio, #music, #blog {
+    scroll-margin-top: 100px;
+  }
 }
 
 @media (max-width: 400px) {
