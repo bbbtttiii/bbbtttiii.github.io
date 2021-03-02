@@ -323,7 +323,10 @@ div.medium-widget-article__description {
   }
   .portfolio-row {
     display: block;
-    
+    padding-bottom: 20px;
+  }
+  ul.tech {
+    margin-bottom: 0;
   }
   #portfolio, #music, #blog {
     scroll-margin-top: 100px;
