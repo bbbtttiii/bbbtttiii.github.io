@@ -190,6 +190,11 @@ section {
   border: 1px solid #ccc;
 }
 
+section h1 {
+  line-height: 1em;
+  font-size: 3em;
+}
+
 section h2 {
   font-size: 2em;
   line-height: 1em;
@@ -324,9 +329,6 @@ div.medium-widget-article__description {
   .portfolio-row {
     display: block;
     padding-bottom: 20px;
-  }
-  ul.tech {
-    margin-bottom: 0;
   }
   #portfolio, #music, #blog {
     scroll-margin-top: 100px;
