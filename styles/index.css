@@ -24,7 +24,6 @@
 }
 
 /* Firefox < 16 */
-
 @-moz-keyframes fadein {
   from {
     opacity: 0;
@@ -35,7 +34,6 @@
 }
 
 /* Safari, Chrome and Opera > 12.1 */
-
 @-webkit-keyframes fadein {
   from {
     opacity: 0;
@@ -46,7 +44,6 @@
 }
 
 /* Internet Explorer */
-
 @-ms-keyframes fadein {
   from {
     opacity: 0;
@@ -57,7 +54,6 @@
 }
 
 /* Opera < 12.1 */
-
 @-o-keyframes fadein {
   from {
     opacity: 0;
@@ -125,18 +121,18 @@ nav li {
   font-weight: 600;
   display: inline;
   font-size: 1em;
-  padding-right: 10px;
+  padding-right: 8px;
   letter-spacing: 2px;
 }
 
 main {
   /* grid-column: span 3; */
   margin: 0 auto;
-  padding: 200px 0;
+  padding: 250px 0;
 }
 
 section {
-  margin-bottom: 200px;
+  margin-bottom: 250px;
   padding: 0 0 30px;
   scroll-margin-top: 25px;
   /* display: flex;
@@ -149,7 +145,6 @@ section {
 
 #hero {
   scroll-margin-top: 300px;
-  /* max-width: 700px; */
 }
 
 #hero small {
@@ -195,10 +190,11 @@ section h1 {
   font-size: 3em;
 }
 
-section h2 {
+#portfolio h2,
+#blog h2,
+#music h2 {
   font-size: 2em;
   line-height: 1em;
-  /* font-weight: 800; */
 }
 
 .contact i {
@@ -320,6 +316,13 @@ div.medium-widget-article__description {
   main {
     padding-top: 150px;
   }
+  #hero {
+    text-align: center;
+  }
+  #hero h2 {
+    max-width: 600px;
+    font-size: 1.5em;
+  }
   .portfolio-container img {
     height: 225px;
   }
@@ -344,8 +347,15 @@ div.medium-widget-article__description {
     padding-right: 0;
     display: block;
   }
-
+  /* #hero h2 {
+    display: inline;
+    max-width: 400px;
+    font-size: 1.5em;
+  } */
   .portfolio-container img {
     height: 225px;
+  }
+  #portfolio, #music, #blog {
+    scroll-margin-top: 120px;
   }
 }
