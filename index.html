@@ -26,22 +26,149 @@
 
 <body class="container">
   <main>
-    <section id="hero">
-      <img src="images/green.jpg">
-      <nav>
-        <ul>
-          <li><a href="/portfolio">Web</a>/</li>
-          <li><a href="/design">Design</a>/</li>
-          <li><a href="/sounds">Sounds</a></li>
-          <span id="email">
-            <li><a href="mailto:ben.iburg@gmail.com" target="_blank"><i class="far fa-envelope fa-2x"></i></a></li>
-          </span>
-        </ul>
-      </nav>
-    </section>
-  </main>
+    <section class="portfolio">
+      <h1>Web</h1>
+      <div class="portfolio-container">
 
+        <div class="portfolio-row">
+          <div class="portfolio-col">
+            <small>PARALLELOGRAM</small>
+            Digital magazine<br>
+            <ul class="tech">
+              <li>React</li>
+              <li>Redux</li>
+              <li>Rails</li>
+              <li>PostgreSQL</li>
+            </ul>
+            <p>
+              <a href="https://www.github.com/bbbtttiii/parallelogram-frontend" target="_blank">Code</a> /
+              <a href="https://parallelogram-mag.netlify.app/" target="_blank">Demo</a><br>
+            </p>
+          </div>
+          <div class="portfolio-col">
+            <a href="https://raw.githubusercontent.com/bbbtttiii/parallelogram-frontend/main/public/parallelogram.jpg"
+              target="_blank">
+              <img src="https://raw.githubusercontent.com/bbbtttiii/parallelogram-frontend/main/public/parallelogram.jpg">
+            </a>
+          </div>
+        </div>
+
+        <div class="portfolio-row">
+          <div class="portfolio-col">
+            <small>VISUALIFTER</small>
+            Weightlifting visualizer<br>
+            <ul class="tech">
+              <li>JavaScript</li>
+              <li>Rails</li>
+              <li>PostgreSQL</li>
+            </ul>
+            <p>
+              <a href="https://www.github.com/bbbtttiii/visualifter" target="_blank">Code</a> /
+              <a href="https://visualifter.netlify.app/" target="_blank">Demo</a>
+            </p>
+          </div>
+          <div class="portfolio-col">
+            <a href="https://raw.githubusercontent.com/bbbtttiii/visualifter/main/frontend/images/visualifter.jpg"
+              target="_blank">
+              <img src="https://raw.githubusercontent.com/bbbtttiii/visualifter/main/frontend/images/visualifter.jpg">
+            </a>
+          </div>
+        </div>
+
+        <div class="portfolio-row">
+          <div class="portfolio-col">
+            <small>HYPERLOCAL</small>
+            Remote weather observation tracking<br>
+            <ul class="tech">
+              <li>Sinatra</li>
+              <li>PostgreSQL</li>
+            </ul>
+            <p>
+              <a href="https://www.github.com/bbbtttiii/hyperlocal" target="_blank">Code</a> /
+              <a href="https://hyperlocal-wx.herokuapp.com/" target="_blank">Demo</a>
+            </p>
+          </div>
+          <div class="portfolio-col">
+            <a href="https://raw.githubusercontent.com/bbbtttiii/hyperlocal/master/public/images/preview.jpg"
+              target="_blank">
+              <img src="https://raw.githubusercontent.com/bbbtttiii/hyperlocal/master/public/images/preview.jpg">
+            </a>
+          </div>
+        </div>
+
+        <div class="portfolio-row">
+          <div class="portfolio-col">
+            <small>4TNR</small>
+            Mountain guidebook<br>
+            <ul class="tech">
+              <li>Ruby</li>
+            </ul>
+            <p>
+              <a href="https://www.github.com/bbbtttiii/4tnr" target="_blank">Code</a>
+            </p>
+          </div>
+          <div class="portfolio-col">
+            <a href="https://raw.githubusercontent.com/bbbtttiii/4tnr/master/img/4tnr.jpg"
+              target="_blank">
+              <img src="https://raw.githubusercontent.com/bbbtttiii/4tnr/master/img/4tnr.jpg">
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="portfolio">
+      <h1>Design</h1>
+      <div class="portfolio-container">
+
+        <div class="portfolio-row">
+          <div class="portfolio-col">
+            <small>
+              GEOMETRIC TYPE<br>
+            </small>
+            <b>Sans-serif & serif font construciton</b><br>
+          </div>
+          <div class="portfolio-col">
+            <a href="https://raw.githubusercontent.com/bbbtttiii/bbbtttiii.github.io/main/images/type1.jpg"
+              target="_blank">
+              <img src="images/type1.jpg">
+            </a>
+          </div>
+        </div>
+
+        <div class="portfolio-row">
+          <div class="portfolio-col">
+            <small>
+              GEOMETRIC LAYOUT<br>
+            </small>
+            <b>Deriving layouts from sacred geometry</b><br>
+          </div>
+          <div class="portfolio-col">
+            <a href="https://raw.githubusercontent.com/bbbtttiii/bbbtttiii.github.io/main/images/layouts1.jpg"
+              target="_blank">
+              <img src="images/layouts1.jpg">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="blog">
+      <h1>Blog</h1>
+      <div class="medium-widget"></div>
+    </section>
+    
+    <section id="contact">
+      <h1>Contact</h1>
+      <a href="mailto:ben.iburg@gmail.com" target="_blank"><i class="far fa-envelope fa-4x" aria-hidden="true"></i></a>
+    </section>
+
+  </main>
+  
+  <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
   <script src="https://kit.fontawesome.com/eb85483d1f.js" crossorigin="anonymous"></script>
+  <script src="blogWidget.js"></script>
 </body>
 
 </html>
