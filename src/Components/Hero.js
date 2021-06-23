@@ -12,7 +12,6 @@ const Hero = () => {
         <a href="https://www.github.com/bbbtttiii" rel="noreferrer" target="_blank"><img src="/images/github.svg" /></a>
         <a href="mailto:ben.iburg@gmail.com" rel="noreferrer" target="_blank"><img src="/images/gmail.svg" /></a>
       </span>
-      {/* <a href="mailto:ben.iburg@gmail.com" target="_blank"><i class="far fa-envelope fa-3x" aria-hidden="true"></i></a> */}
     </div>
   )
 }

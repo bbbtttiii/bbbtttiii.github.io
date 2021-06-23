@@ -7,7 +7,7 @@ const App = () => {
     <div className="container">
       <Hero />
       <Project />
-      <Blog />
+      {/* <Blog /> */}
     </div>
   );
 }
