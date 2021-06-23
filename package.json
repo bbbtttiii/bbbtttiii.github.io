@@ -1,6 +1,6 @@
 {
   "name": "bbbtttiii.github.io",
-  "homepage": "https://bbbtttiii.github.io/bbbtttiii.github.io",
+  "homepage": "https://bbbtttiii.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,6 +16,7 @@
     "gh-pages": "^3.2.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-lazy-load": "^3.1.13",
     "react-medium-widget": "^1.0.0",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.0.1"

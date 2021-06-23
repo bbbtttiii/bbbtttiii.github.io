@@ -94,8 +94,8 @@ const Project = () => {
                 ))}
               </ul>
               <ul className="linkslist">
-                {Object.entries(p.links).map(([linkName, url]) => (
-                  <li className="links">
+                {Object.entries(p.links).map(([linkName, url], k) => (
+                  <li key={k} className="links">
                     <a href={url}>{linkName}</a>
                   </li>
                 ))}
