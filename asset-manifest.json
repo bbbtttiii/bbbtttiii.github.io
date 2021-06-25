@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/bbbtttiii.github.io/static/css/main.2bc4ebab.chunk.css",
+    "main.js": "/bbbtttiii.github.io/static/js/main.ec7e722e.chunk.js",
+    "main.js.map": "/bbbtttiii.github.io/static/js/main.ec7e722e.chunk.js.map",
+    "runtime-main.js": "/bbbtttiii.github.io/static/js/runtime-main.40e955f7.js",
+    "runtime-main.js.map": "/bbbtttiii.github.io/static/js/runtime-main.40e955f7.js.map",
+    "static/js/2.edff6c7b.chunk.js": "/bbbtttiii.github.io/static/js/2.edff6c7b.chunk.js",
+    "static/js/2.edff6c7b.chunk.js.map": "/bbbtttiii.github.io/static/js/2.edff6c7b.chunk.js.map",
+    "static/js/3.1d82611b.chunk.js": "/bbbtttiii.github.io/static/js/3.1d82611b.chunk.js",
+    "static/js/3.1d82611b.chunk.js.map": "/bbbtttiii.github.io/static/js/3.1d82611b.chunk.js.map",
+    "index.html": "/bbbtttiii.github.io/index.html",
+    "static/css/main.2bc4ebab.chunk.css.map": "/bbbtttiii.github.io/static/css/main.2bc4ebab.chunk.css.map",
+    "static/js/2.edff6c7b.chunk.js.LICENSE.txt": "/bbbtttiii.github.io/static/js/2.edff6c7b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.40e955f7.js",
+    "static/js/2.edff6c7b.chunk.js",
+    "static/css/main.2bc4ebab.chunk.css",
+    "static/js/main.ec7e722e.chunk.js"
+  ]
+}
