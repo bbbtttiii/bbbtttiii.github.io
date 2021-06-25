@@ -24,9 +24,9 @@ body {
 .hero {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   padding-top: 100px;
-  padding-bottom: 30px;
+  padding-bottom: 35px;
 }
 
 img#portrait {
@@ -70,6 +70,7 @@ h1:hover {
 h2 {
   font-size: 1.5em;
   margin-top: 35px;
+  margin-bottom: 35px;
 }
 
 .hero h2:nth-of-type(-n+3) {
